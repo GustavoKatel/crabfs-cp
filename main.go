@@ -88,7 +88,7 @@ func main() {
 	fs, err := crabfs.New(
 		crabfsOpts.Context(context.Background()),
 		crabfsOpts.Root(tmpdir),
-		crabfsOpts.BootstrapPeersAppend([]string{"/ip4/34.73.186.21/tcp/1717/ipfs/QmQ1WzF2HdB53t3BSF3bCLbnwtfaJgDeTmxdyYDL2eTaeL"}),
+		crabfsOpts.BootstrapPeersAppend([]string{"/ip4/34.73.186.21/tcp/1700/ipfs/QmWVahvtU323kpgQL7kXo21R8Hy7q2yFFWWVongbpEKtLu"}),
 	)
 	if err != nil {
 		panic(err)
